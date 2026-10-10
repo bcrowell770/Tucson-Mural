@@ -1,0 +1,380 @@
+{
+  "name": "tucson-mural",
+  "version": "1.0.0",
+  "author": "BD Crowell",
+  "private": true,
+  "description": "Tucson mural clock with ten illustrated numerals and coordinated lighting",
+  "pebble": {
+    "displayName": "Tucson Mural",
+    "uuid": "dba27ea0-aebb-4653-82f7-2c52e9ecb29b",
+    "sdkVersion": "3",
+    "projectType": "native",
+    "targetPlatforms": [
+      "emery",
+      "gabbro",
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "raw",
+          "name": "DIGIT_0_BASALT",
+          "file": "basalt/digit-0.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_1_BASALT",
+          "file": "basalt/digit-1.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_2_BASALT",
+          "file": "basalt/digit-2.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_3_BASALT",
+          "file": "basalt/digit-3.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_4_BASALT",
+          "file": "basalt/digit-4.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_5_BASALT",
+          "file": "basalt/digit-5.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_6_BASALT",
+          "file": "basalt/digit-6.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_7_BASALT",
+          "file": "basalt/digit-7.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_8_BASALT",
+          "file": "basalt/digit-8.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_9_BASALT",
+          "file": "basalt/digit-9.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "BACKGROUND_MORNING_BASALT",
+          "file": "basalt/morning.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "BACKGROUND_DAY_BASALT",
+          "file": "basalt/day.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "BACKGROUND_SUNSET_BASALT",
+          "file": "basalt/sunset.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "BACKGROUND_NIGHT_BASALT",
+          "file": "basalt/night.bin",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_0_EMERY",
+          "file": "emery/digit-0.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_1_EMERY",
+          "file": "emery/digit-1.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_2_EMERY",
+          "file": "emery/digit-2.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_3_EMERY",
+          "file": "emery/digit-3.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_4_EMERY",
+          "file": "emery/digit-4.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_5_EMERY",
+          "file": "emery/digit-5.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_6_EMERY",
+          "file": "emery/digit-6.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_7_EMERY",
+          "file": "emery/digit-7.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_8_EMERY",
+          "file": "emery/digit-8.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_9_EMERY",
+          "file": "emery/digit-9.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "BACKGROUND_MORNING_EMERY",
+          "file": "emery/morning.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "BACKGROUND_DAY_EMERY",
+          "file": "emery/day.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "BACKGROUND_SUNSET_EMERY",
+          "file": "emery/sunset.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "BACKGROUND_NIGHT_EMERY",
+          "file": "emery/night.bin",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_0_GABBRO",
+          "file": "gabbro/digit-0.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_1_GABBRO",
+          "file": "gabbro/digit-1.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_2_GABBRO",
+          "file": "gabbro/digit-2.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_3_GABBRO",
+          "file": "gabbro/digit-3.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_4_GABBRO",
+          "file": "gabbro/digit-4.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_5_GABBRO",
+          "file": "gabbro/digit-5.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_6_GABBRO",
+          "file": "gabbro/digit-6.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_7_GABBRO",
+          "file": "gabbro/digit-7.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_8_GABBRO",
+          "file": "gabbro/digit-8.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_9_GABBRO",
+          "file": "gabbro/digit-9.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "BACKGROUND_MORNING_GABBRO",
+          "file": "gabbro/morning.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "BACKGROUND_DAY_GABBRO",
+          "file": "gabbro/day.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "BACKGROUND_SUNSET_GABBRO",
+          "file": "gabbro/sunset.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "BACKGROUND_NIGHT_GABBRO",
+          "file": "gabbro/night.bin",
+          "targetPlatforms": [
+            "gabbro"
+          ]
+        }
+      ]
+    },
+    "capabilities": [
+      "configurable",
+      "location"
+    ],
+    "enableMultiJS": true,
+    "messageKeys": {
+      "RequestWeather": 0,
+      "TempC": 1,
+      "WeatherCode": 2,
+      "IsDay": 3,
+      "WeatherStamp": 4,
+      "TemperatureUnit": 5,
+      "ShowBtIcon": 6,
+      "BtVibrate": 7,
+      "LowVisionMode": 8
+    }
+  },
+  "dependencies": {
+    "@rebble/clay": "1.0.10"
+  }
+}

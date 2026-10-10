@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "pbw_sha256": "fdfdbd4d8455c5771adfd9da76821bd2ef49b588695ecb40d1d9b87d5be831e7",
+  "resource_bytes": {
+    "emery": 162252,
+    "gabbro": 205612,
+    "basalt": 88396
+  },
+  "native_screenshots": 15,
+  "all_time_fit_cases": 4320,
+  "artwork_and_runtime_unchanged_from": "0.11.0",
+  "user_approved_on_watch_readability": true,
+  "multi_day_battery_measured": false,
+  "published": false
+}

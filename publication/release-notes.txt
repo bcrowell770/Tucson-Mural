@@ -1,0 +1,8 @@
+Tucson Mural 1.0.0
+First publication candidate.
+
+Ten original Tucson/Sonoran mural numerals with coordinated morning, day, sunset, and night lighting. Includes local date and weather, Fahrenheit/Celsius settings, optional Bluetooth disconnect icon and vibration, and optional Low Vision Mode with larger date/weather text.
+
+Supported platforms: Emery (Pebble Time 2), Gabbro (Pebble Round 2), and Basalt (Pebble Time / Time Steel).
+
+Same approved artwork and behavior as development version 0.11.0; release version metadata updated to 1.0.0. Existing installations retain settings and weather cache through the unchanged UUID.

@@ -1,0 +1,14 @@
+build/
+node_modules/
+.lock-waf_*
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+*.zip
+.DS_Store
+Thumbs.db
+review/
+Publication Package*/
+/tucson-mural-*.pbw

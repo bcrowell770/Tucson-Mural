@@ -1,0 +1,18 @@
+The time itself is the mural.
+
+Tucson Mural fills bold, readable numerals with original Sonoran Desert illustrations: Catalina Mountains, saguaros, prickly pear, wildflowers, desert wildlife, and architecture inspired by Tucson landmarks.
+
+Morning light, bright desert skies, sunset colors, and a moonlit palette change both the background and the artwork inside the numbers throughout the day.
+
+Features:
+• Large illustrated numerals with strong outlines
+• Local date, temperature, and weather conditions
+• Fahrenheit or Celsius
+• Optional Low Vision Mode for a larger date/weather line
+• Optional Bluetooth disconnect icon and vibration
+• Your watch's 12/24-hour preference
+• Minute updates with no decorative animation
+
+Supports Pebble Time 2, Pebble Round 2, Pebble Time, and Pebble Time Steel. Other models are not supported in this release.
+
+Weather uses your phone's location and internet connection. Location permission is required for weather; the clock works without it. Weather data by Open-Meteo (https://open-meteo.com/), CC BY 4.0. Temperatures are rounded and converted for display.
