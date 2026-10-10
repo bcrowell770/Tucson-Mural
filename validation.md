@@ -16,4 +16,4 @@ Earlier 0.11.0 development checks covered Low Vision settings persistence/relaun
 
 Recommended before broad release: normal phone settings and location allow/deny on the intended phone, a real sustained disconnect/reconnect with vibration enabled, and ordinary wear to assess battery life. These results are not claimed complete. There is no measured multi-day battery result or guarantee.
 
-The source and publication assets are prepared for GitHub. The watchface has not been published to an app store. No unsupported hardware is advertised as compatible.
+Published to the [Pebble app store](https://apps.repebble.com/5d2e86b927824a7d8c328af0). The public store API was checked on 2026-10-10 and confirms version 1.0.0, UUID `dba27ea0-aebb-4653-82f7-2c52e9ecb29b`, and Basalt/Emery/Gabbro compatibility. No unsupported hardware is advertised as compatible.

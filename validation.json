@@ -11,5 +11,7 @@
   "artwork_and_runtime_unchanged_from": "0.11.0",
   "user_approved_on_watch_readability": true,
   "multi_day_battery_measured": false,
-  "published": false
+  "published": true,
+  "store_url": "https://apps.repebble.com/5d2e86b927824a7d8c328af0",
+  "store_metadata_verified_on": "2026-10-10"
 }

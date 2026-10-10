@@ -8,7 +8,9 @@ Morning, day, sunset, and night palettes change the background and the artwork i
 
 ## Install version 1.0.0
 
-[Download the PBW](releases/tucson-mural-1.0.0.pbw?raw=true) and open it with the Pebble phone app. It uses the same UUID as the development versions, preserving settings when updated. This repository includes the publication candidate; an app-store listing has not been published.
+[Install from the Pebble app store](https://apps.repebble.com/5d2e86b927824a7d8c328af0). Version 1.0.0 is live for Emery, Gabbro, and Basalt.
+
+For manual installation, [download the PBW](releases/tucson-mural-1.0.0.pbw?raw=true) and open it with the Pebble phone app. It uses the same UUID as the development versions, preserving settings when updated.
 
 | Platform | Models | Display |
 |---|---|---|
@@ -61,4 +63,4 @@ The user has approved time and larger-footer readability on a physical watch. SD
 - `publication/`: draft store copy and release notes.
 - `releases/`: version 1.0.0 PBW and SHA-256 checksum.
 
-No open-source license has been selected for the original code or artwork. Third-party notices are retained in `licenses/`. Store publication is a separate step.
+No open-source license has been selected for the original code or artwork. Third-party notices are retained in `licenses/`.
